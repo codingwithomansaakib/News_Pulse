@@ -34,14 +34,14 @@ export default function Home() {
       setLoading(true);
 
       const clusterRes = await axios.get(
-        "http://localhost:5000/clusters"
+        "https://newspulse-production-3d82.up.railway.app/clusters"
       );
 
       setClusters(clusterRes.data);
       setFilteredClusters(clusterRes.data);
 
       const sourceRes = await axios.get(
-        "http://localhost:5000/clusters/sources"
+        "https://newspulse-production-3d82.up.railway.app/clusters/sources"
       );
 
       setSources(sourceRes.data);
