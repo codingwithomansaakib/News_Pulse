@@ -1,0 +1,15 @@
+# Python
+venv/
+scraper/venv/
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+.next/
+
+# Environment variables
+.env
+
+# Logs
+*.log  
