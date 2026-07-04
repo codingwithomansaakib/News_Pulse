@@ -105,7 +105,7 @@ News_Pulse/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/news-pulse.git
+git clone https://github.com/codingwithomansaakib/News_Pulse.git
 
 cd news-pulse
 ```
@@ -321,7 +321,7 @@ B.Tech Computer Science (AI & ML)
 
 KR Mangalam University
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/codingwithomansaakib
 
 LinkedIn: https://www.linkedin.com/in/oman-saakib-7404b0255/
 
