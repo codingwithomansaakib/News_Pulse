@@ -18,7 +18,7 @@ export default function ClusterDetails() {
   async function loadCluster() {
     try {
       const res = await axios.get(
-        `http://localhost:5000/clusters/${id}`
+        `https://newspulse-production-3d82.up.railway.app/clusters/${id}`
       );
 
       setData(res.data);
