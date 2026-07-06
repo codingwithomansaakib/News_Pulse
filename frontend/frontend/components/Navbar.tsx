@@ -9,7 +9,7 @@ export default function Navbar() {
     try {
 
       await axios.post(
-        "http://localhost:5000/ingest/trigger"
+        "https://newspulse-production-3d82.up.railway.app/ingest/trigger"
       );
 
       alert("Scraper Started!\nPlease wait 15-30 seconds.");
